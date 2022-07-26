@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aj.entities.Merchandise;
 import com.aj.repositories.MerchandiseRepo;
+import com.skilldistillery.entities.Merchandise;
 
 @Service
 public class MerchandiseServiceImpl implements MerchandiseService {

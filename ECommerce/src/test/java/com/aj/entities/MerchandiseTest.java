@@ -12,6 +12,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.skilldistillery.entities.Merchandise;
+
 class MerchandiseTest {
 	private static EntityManagerFactory emf;
 	private static EntityManager em;
