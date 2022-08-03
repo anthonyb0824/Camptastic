@@ -4,7 +4,7 @@
 	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<!-- Begin Entities Here -->
 
-		<class>com.skilldistillery.entities.Merchandise</class>
+		<class>com.skilldistillery.entities.Item</class>
 		<!-- <class>com.skilldistillery.entities.User</class> -->
 
 		<!-- End Entities Here -->
@@ -12,21 +12,20 @@
 		<!-- come back and change the url and database password and login -->
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:mysql://localhost:3306/camptastic?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=US/Mountain" />
-			<property name="javax.persistence.jdbc.user" value="camper" />
-			<property name="javax.persistence.jdbc.password"
-				value="camper" />
+			<property name="javax.persistence.jdbc.user" value="admin" />
+			<property name="javax.persistence.jdbc.password" value="admin" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 
-			<property name="hibernate.show_sql" value="false" />
-			<property name="hibernate.format_sql" value="false" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
 
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQLDialect" />
 			<property name="hibernate.connection.provider_class"
 				value="org.hibernate.connection.C3P0ConnectionProvider" />
 
-			<property name="hibernate.c3p0.max_size" value="5" />
+	<property name="hibernate.c3p0.max_size" value="5" />
 			<property name="hibernate.c3p0.min_size" value="0" />
 			<property name="hibernate.c3p0.acquire_increment" value="1" />
 			<property name="hibernate.c3p0.idle_test_period" value="300" />
