@@ -14,7 +14,7 @@
 				value="jdbc:mysql://localhost:3306/camptastic?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=US/Mountain" />
 			<property name="javax.persistence.jdbc.user" value="camper" />
 			<property name="javax.persistence.jdbc.password"
-				value="camper" />
+				value="campers" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 
