@@ -20,11 +20,12 @@ import com.skilldistillery.services.ItemService;
 public class ItemController {
 
 	@Autowired
-	private ItemService merchServ;
+	private ItemService itemServ;
 	
-	@GetMapping("merchandise")
+	@GetMapping("item")
 	public List<Item> index(Principal principal, HttpServletResponse res){
-		return merchServ.index(principal.getName());
+		return itemServ.index();
+		//principal.getName()
 		
 		
 	}

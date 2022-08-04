@@ -5,7 +5,6 @@
 		<!-- Begin Entities Here -->
 
 		<class>com.skilldistillery.entities.Item</class>
-		<!-- <class>com.skilldistillery.entities.User</class> -->
 
 		<!-- End Entities Here -->
 		<properties>
@@ -16,6 +15,7 @@
 			<property name="javax.persistence.jdbc.password" value="camper" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
+
 
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
