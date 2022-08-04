@@ -1,4 +1,4 @@
-package com.aj;
+package com.skilldistillery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +10,11 @@ public class ECommerceBootApplication {
 		SpringApplication.run(ECommerceBootApplication.class, args);
 	}
 
+	
+//	@Bean
+//	  public PasswordEncoder configurePasswordEncoder() {
+//	    return new BCryptPasswordEncoder();
+//	  }
+	
+	
 }

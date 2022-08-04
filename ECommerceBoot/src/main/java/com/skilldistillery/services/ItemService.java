@@ -1,4 +1,4 @@
-package com.aj.services;
+package com.skilldistillery.services;
 
 import java.util.List;
 
