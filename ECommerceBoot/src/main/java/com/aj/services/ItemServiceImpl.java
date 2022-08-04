@@ -5,17 +5,17 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.aj.repositories.MerchandiseRepo;
-import com.skilldistillery.entities.Merchandise;
+import com.aj.repositories.ItemRepo;
+import com.skilldistillery.entities.Item;
 
 @Service
-public class MerchandiseServiceImpl implements MerchandiseService {
+public class ItemServiceImpl implements ItemService {
 	
 	@Autowired
-	private MerchandiseRepo merchRepo;
+	private ItemRepo merchRepo;
 
 	@Override
-	public List<Merchandise> index() {
+	public List<Item> index() {
 		return merchRepo.findAll();
 	}
 

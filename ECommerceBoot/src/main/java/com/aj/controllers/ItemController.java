@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aj.services.MerchandiseService;
+import com.aj.services.ItemService;
 
 @RestController
 @RequestMapping("api")
 @CrossOrigin({"*","http://localhost:4202"})
-public class MerchandiseController {
+public class ItemController {
 
 	@Autowired
-	MerchandiseService serv;
+	ItemService serv;
 }

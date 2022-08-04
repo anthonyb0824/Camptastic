@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Merchandise {
+public class Item {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,7 +14,7 @@ public class Merchandise {
 	
 	private String name;
 	
-	public Merchandise() {
+	public Item() {
 		
 	}
 
@@ -36,7 +36,7 @@ public class Merchandise {
 
 	@Override
 	public String toString() {
-		return "Merchandise [id=" + id + ", name=" + name + "]";
+		return "Item [id=" + id + ", name=" + name + "]";
 	}
 	
 	

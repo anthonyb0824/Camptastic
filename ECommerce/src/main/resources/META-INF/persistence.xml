@@ -4,7 +4,7 @@
 	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<!-- Begin Entities Here -->
 
-		<class>com.skilldistillery.entities.Merchandise</class>
+		<class>com.skilldistillery.entities.Item</class>
 		<!-- <class>com.skilldistillery.entities.User</class> -->
 
 		<!-- End Entities Here -->
