@@ -14,10 +14,10 @@ public class ECommerceBootApplication {
 	}
 
 	
-	@Bean
-	  public PasswordEncoder configurePasswordEncoder() {
-	    return new BCryptPasswordEncoder();
-	  }
-	
+//	@Bean
+//	  public PasswordEncoder configurePasswordEncoder() {
+//	    return new BCryptPasswordEncoder();
+//	  }
+//	
 	
 }
