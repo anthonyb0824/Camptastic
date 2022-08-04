@@ -5,10 +5,5 @@ import java.util.List;
 import com.skilldistillery.entities.Item;
 
 public interface ItemService {
-	
-	
-	
-	public List<Item> index(String username);
-	
-	
+	List<Item> index();
 }

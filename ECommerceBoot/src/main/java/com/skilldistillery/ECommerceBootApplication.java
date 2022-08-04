@@ -2,9 +2,6 @@ package com.skilldistillery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
 public class ECommerceBootApplication {
@@ -18,6 +15,10 @@ public class ECommerceBootApplication {
 //	  public PasswordEncoder configurePasswordEncoder() {
 //	    return new BCryptPasswordEncoder();
 //	  }
+<<<<<<< HEAD
 //	
+=======
+	
+>>>>>>> 0c0be0b717bdca4fed96236386e3c88bc18671bb
 	
 }

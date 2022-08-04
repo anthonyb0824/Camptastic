@@ -5,17 +5,17 @@
 		<!-- Begin Entities Here -->
 
 		<class>com.skilldistillery.entities.Item</class>
-		<!-- <class>com.skilldistillery.entities.User</class> -->
 
 		<!-- End Entities Here -->
 		<properties>
 		<!-- come back and change the url and database password and login -->
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:mysql://localhost:3306/camptastic?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=US/Mountain" />
-			<property name="javax.persistence.jdbc.user" value="admin" />
-			<property name="javax.persistence.jdbc.password" value="admin" />
+			<property name="javax.persistence.jdbc.user" value="camper" />
+			<property name="javax.persistence.jdbc.password" value="camper" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
+
 
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
