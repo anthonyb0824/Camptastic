@@ -1,4 +1,4 @@
-package com.aj.entities;
+package com.skilldistillery.entities;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -44,7 +44,7 @@ class MerchandiseTest {
 	@Test
 	void test() {
 		assertNotNull(merch);
-		assertEquals(merch.getName(),"name");
+		assertEquals(merch.getName(),"boots");
 	}
 
 }

@@ -5,7 +5,7 @@
 		<!-- Begin Entities Here -->
 
 		<class>com.skilldistillery.entities.Item</class>
-		<!-- <class>com.skilldistillery.entities.User</class> -->
+		<class>com.skilldistillery.entities.User</class>
 
 		<!-- End Entities Here -->
 		<properties>
