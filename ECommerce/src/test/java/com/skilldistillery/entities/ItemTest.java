@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 
 import com.skilldistillery.entities.Item;
 
-class MerchandiseTest {
+class ItemTest {
 	private static EntityManagerFactory emf;
 	private static EntityManager em;
 	private Item merch;

@@ -12,15 +12,12 @@ import com.skilldistillery.repositories.ItemRepository;
 public class ItemServiceImpl implements ItemService {
 	
 	@Autowired
-	private ItemRepository merchRepo;
-
-
+	private ItemRepository itemRepo;
 
 
 	@Override
-	public List<Item> index(String username) {
-		// TODO Auto-generated method stub
-		return merchRepo.findAll();
+	public List<Item> index() {
+		return itemRepo.findAll();
 	}
 	
 	
