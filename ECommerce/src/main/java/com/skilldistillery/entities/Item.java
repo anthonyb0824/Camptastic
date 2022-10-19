@@ -1,9 +1,12 @@
 package com.skilldistillery.entities;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 
 @Entity
 public class Item {
@@ -13,6 +16,9 @@ public class Item {
 	private int id;
 	
 	private String name;
+	
+	private List <Category> categories;
+	
 	
 	public Item() {
 		
@@ -37,6 +43,15 @@ public class Item {
 	@Override
 	public String toString() {
 		return "Item [id=" + id + ", name=" + name + "]";
+	}
+	
+	@ManyToMany
+	public List <Category> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(List <Category> categories) {
+		this.categories = categories;
 	}
 	
 	
