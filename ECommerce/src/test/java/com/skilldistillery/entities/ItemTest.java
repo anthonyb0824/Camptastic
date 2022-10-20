@@ -1,6 +1,7 @@
 package com.skilldistillery.entities;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,8 +12,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import com.skilldistillery.entities.Item;
 
 class ItemTest {
 	private static EntityManagerFactory emf;
@@ -45,6 +44,18 @@ class ItemTest {
 	void test() {
 		assertNotNull(merch);
 		assertEquals(merch.getName(),"boots");
+	}
+	
+	@Test
+	void test1() {
+		assertNotNull(merch);
+		assertEquals(merch.getPrice(), 49.99);
+	}
+	@Test
+	void test2() {
+		assertNotNull(merch);
+		assertTrue(merch.getCategories().size()<1);
+		
 	}
 
 }
